@@ -1,1 +1,100 @@
-@forward "../scss/base/reset"
+@forward "./base/index";
+@use "./util/index";
+
+// nav related css
+.naav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 15px;
+padding: 1.5rem;
+position:sticky;
+top: 0;
+width: 100%;
+z-index: 1;
+background-color: white;
+
+ul{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+}
+
+#main_Section{
+    background: index.$sales_bg;
+}
+// sales section related code 
+#sales_section_container{
+   
+    margin-top: 50px;
+   
+    .first_part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        
+    
+        h2{
+            width: 70%;
+            font-size: 5rem;
+        }
+        div{
+            display: flex;
+            justify-content: end;
+            
+        }
+    }
+
+    #second_part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+        h1{
+            font-weight: 700;
+            font-size: 2rem;
+        }
+        p{
+            line-height: 1.9rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color:rgb(56, 55, 55);
+        }
+        button{
+            margin-top: 2rem;
+            border: none;
+            background: #fff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        #workflow{
+           padding: 1.5rem;
+           line-height: 
+           3rem;
+           
+        }
+        #lead{
+           padding: 1.5rem;
+           line-height: 
+           3rem;
+           
+        }
+        #sales{
+           padding: 1.5rem;
+           line-height: 
+           3rem;
+           
+        }
+        div{
+            padding: 1.5rem;
+            background: #fff;
+            border-radius: 1.5rem;
+           
+        }
+    }
+}
